@@ -1,0 +1,11 @@
+Before all these steps I want you to connect with me in the meeting , so I can help you for all the setup and configurations al I wont be sharing my env packages with you as it takes too much data for uploading and downloading and also need to show you about how this basically works as both frontend and backend combined
+So, after cloning this project simply connect with , so I can help you out to do all the intial setups
+Feel free to reach out to me on teams : lokeshsai128@gmail.com
+
+Step - 1 :  Start the Apache service from the XAMPP.
+Step - 2 : open the desired folder from the cmd and use this to run the file  : D:\Youtube_Downloader\youtube_downloader>python app.py
+		(or else) we can also directly run that file from the vs code editor, or terminal in the same path
+Step - 3 : Now copy any youtube video or audio link that you would like to download.
+Step - 4 : Now open the website throush any browser whereas presently in "localhost:5000"
+Step - 5 : Paste the youtube link and select the desired quality and the file format and click on download.
+Step - 6 : Wait until the download finishes and check the file in your downloads folder or any other desired folder .
