@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            text-align: center;
+        }
+        input, select, button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .waiting-message {
+            display: none;
+            margin-top: 20px;
+        }
+        .waiting-message.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>YouTube Downloader</h1>
+    <form id="downloadForm" method="POST" action="/download">
+        <input type="text" name="video_link" placeholder="YouTube video link" required><br>
+        <select name="video_quality" required>
+            <option value="480p">480p</option>
+            <option value="720p">720p</option>
+            <option value="1080p">1080p</option>
+            <option value="2k">2k</option>
+            <option value="4k">4k</option>
+        </select><br>
+        <select name="file_type" required>
+            <option value="video">Video with Audio</option>
+            <option value="audio">Audio Only</option>
+        </select><br>
+        <button type="submit" onclick="showWaitingMessage()">Download</button>
+    </form>
+    <div id="waitingMessage" class="waiting-message">Your download is being processed. Please wait...</div>
+
+    <script>
+        function showWaitingMessage() {
+            document.getElementById('waitingMessage').classList.add('active');
+        }
+    </script>
+</body>
+</html>
