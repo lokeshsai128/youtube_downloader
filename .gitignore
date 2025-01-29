@@ -1,0 +1,15 @@
+# Python bytecode files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+
+# Downloaded videos directory
+YT_Downloaded_Videos/
+
+#extracter and merger
+ffplay.exe 
+ffprobe.exe
+ffmpeg.exe
+
