@@ -1,6 +1,9 @@
 Before all these steps I want you to connect with me in the meeting , so I can help you for all the setup and configurations al I wont be sharing my env packages with you as it takes too much data for uploading and downloading and also need to show you about how this basically works as both frontend and backend combined
 So, after cloning this project simply connect with , so I can help you out to do all the intial setups
 Feel free to reach out to me on teams : lokeshsai128@gmail.com
+But before following these steps, we do need 3 files which are used to merge the audio and video our resource properly, ping me directly to get those file links which are more than 100mb each and github doesn't allows them to be pushed to remote areas as the file size is too large
+After the files, create a virtual environment and use this command inside it install necessary packages for this project : "pip install -r requirements.txt"
+Steps to follow after having all the files and required packages downloaded : 
 
 Step - 1 :  Start the Apache service from the XAMPP.
 Step - 2 : open the desired folder from the cmd and use this to run the file  : D:\Youtube_Downloader\youtube_downloader>python app.py
